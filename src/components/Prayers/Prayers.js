@@ -15,7 +15,7 @@ const Prayers = ({ prayer,handleAddToCart }) => {
                 </p>
                 <p className="font-semibold font-sans">{description}</p>
                 <div className="card-actions py-4">
-                <button onClick={() => handleAddToCart()} className="border-2 bg-cyan-400 rounded-lg p-2 mt-5 text-blue font-serif font-              semibold absolute bottom-1 ">
+                <button onClick={() => handleAddToCart(prayer.duration)} className="border-2 bg-cyan-400 rounded-lg p-2 mt-5 text-blue font-serif font-              semibold absolute bottom-1 ">
                     Prayed Today
                 </button>
         </div>
