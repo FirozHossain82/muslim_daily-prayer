@@ -1,0 +1,65 @@
+[
+    {
+        "id": "1",
+        "name": "Fajr",
+        "duration": 15,
+        "description": "The Fajr prayer is the first of the five mandatory salah, to be performed anytime starting from the moment of dawn, but not after sunrise.",
+        "img": "https://media.istockphoto.com/id/160463214/video/muslim-at-the-end-of-prayer.jpg?s=640x640&k=20&c=RXQLmY-SRL1fX2GjfFWCRG9WV_Z0sF7ZaqFqDyXvgxc="
+    },
+    {
+        "id": "2",
+        "name": "Dhuhr",
+        "duration": 30,
+        "description": "The Dhuhr prayer is the Second of the five mandatory salah. Which we pray at noon.",
+        "img": "https://media.istockphoto.com/id/1001021150/photo/muslim-man-is-praying-in-mosque.jpg?b=1&s=612x612&w=0&k=20&c=-eczAZ1R0VtCX7LiFAMwSyiFHKCiOCnjO7Rr9Gqr7Mw="
+    },
+    {
+        "id": "3",
+        "name": "Asr",
+        "duration": 10,
+        "description": "The Asr  is the Third of the five mandatory salah. Which we pray in the afternoon.",
+        "img":  "https://thumbs.dreamstime.com/b/group-muslims-modern-mosque-praying-muslim-prayer-namaz-holy-month-ramadan-group-muslims-265145289.jpg"
+    },
+    {
+        "id": "4",
+        "name": "Magrib",
+        "duration": 15,
+        "description": "The Magrib prayer is the Fourth of the five mandatory salah. Which we pray after sunset.",
+        "img":  "https://images.squarespace-cdn.com/content/v1/5b022d5d4eddecdafe5df3f6/1648593256480-5JOFM190SH7Y0GD7ZU64/dreamstime_l_149997969.jpg?format=1500w"
+    },
+    {
+        "id": "5",
+        "name": "Isha",
+        "duration": 25,
+        "description": "The Isha prayer is the Fifth of the five mandatory salah. Which we pray at night.",
+        "img":  "https://www.islamicity.org/wp-content/plugins/blueprint-timthumb/timthumb.php?src=https://media.islamicity.org/wp-content/uploads/2015/07/praying2.jpg&w=600&h=337&q=100"
+    },
+    {
+        "id": "6",
+        "name": "Tahajjud",
+        "duration": 40,
+        "description": "Tahajjud also known as the night prayer, is a voluntary prayer performed by followers of Islam.Which is prayed after one third of the night.",
+        "img":  "https://media.istockphoto.com/id/1221263213/photo/a-realistic-arabian-interior-miniature-with-window-and-columns-silhouette-of-muslim-praying.jpg?s=612x612&w=0&k=20&c=2cSQf-nazX447pSMy5oiTs0Ha4i8mVzk5ZlwsY2P4jo="
+    },
+    {
+        "id": "7",
+        "name": "Quran Tilawat ,Morning",
+        "duration": 25,
+        "description": "Every Muslim should have a strong connection to the Quran by building a strong relationship with it. This can only happen when you have a daily portion of Quran recitation.",
+        "img": "https://img.freepik.com/premium-photo/muslim-man-reading-quran-his-hands_9083-4593.jpg"
+    },
+    {
+        "id": "8",
+        "name": "Quran Tilawat ,Night",
+        "duration": 30,
+        "description": "Every Muslim should have a strong connection to the Quran by building a strong relationship with it. This can only happen when you have a daily portion of Quran recitation.",
+        "img":  "https://as1.ftcdn.net/v2/jpg/05/66/24/24/1000_F_566242418_YV13SYfCd25bOvL4QWWws88oWm25ZGP1.jpg"
+    },
+    {
+        "id": "9",
+        "name": "Tosbi Tilawat, Any Time",
+        "duration": 40,
+        "description": "Islam isn't just a religion. It is a complete way of life covering every spiritual, economic, and societal aspect. It establishes laws that lead its followers towards goodness and virtue.",
+        "img":  "https://media.istockphoto.com/id/534133548/photo/hand-of-muslim-people-praying.jpg?s=612x612&w=0&k=20&c=16x-rIttLsPmbwgPx82Yt0NQALguVKSUtdNcBkvTeSg="
+    }
+]
