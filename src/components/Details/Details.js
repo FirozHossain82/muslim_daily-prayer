@@ -2,7 +2,7 @@ import React from 'react';
 
 const Details = () => {
     return (
-        <div className='bg-slate-200 m-2 p-3 rounded-lg flex justify-around'>
+        <div className='bg-cyan-200 m-2 p-3 rounded-lg flex justify-around'>
             <div >
                 <h1><span className='text-2xl font-sans font-semibold'>56</span> <small className='font-semibold'>kg</small></h1>
                 <p className='font-semibold'>Weight</p>
