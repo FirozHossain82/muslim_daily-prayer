@@ -1,8 +1,23 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {  faDumbbell, faHomeUser } from '@fortawesome/free-solid-svg-icons'
 import "./Home.css";
+import Prayers from "../Prayers/Prayers.js";
+
 const Home = () => {
+ 
+  const [prayers, setPrayers] = useState([]);
+
+  useEffect(()=>{
+    fetch('prayers.json')
+    .then(res =>res.json())
+    .then(data => setPrayers(data))
+  },[])
+
+  const handleAddToCart = () =>{
+    console.log('card clicked')
+  }
+
   return (
     <div className="grid grid-rows-2 lg:grid-rows-1 grid-flow-row lg:grid-flow-col">
       <div className="row-span-4 m-2 lg:m-10 mb-0 lg:mb-0">
@@ -13,7 +28,13 @@ const Home = () => {
           </h1>
         </div>
         <div className="grid grid-rows-6 sm:grid-rows-3 md:grid-rows-3 gap-3 sm:grid-flow-col  md:grid-flow-col lg:grid-flow-col">
-          <h3>prayer </h3>
+          {
+            prayers.map(prayer => <Prayers
+            key={prayer.id}
+            prayer={prayer}
+            handleAddToCart ={handleAddToCart}
+            ></Prayers>)
+          }
         </div>
       </div>
       <div className="row-span-1 bg-white mt-3 sm:mt-3 lg:mt-2 shadow-lg m-2 sm:m-2 lg:m-0 rounded-lg sm:rounded-lg lg:rounded-none">
